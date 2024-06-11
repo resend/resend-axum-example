@@ -1,6 +1,6 @@
-# Resend with Example
+# Resend with Axum
 
-This example shows how to use Resend with [Example](https://example.com).
+This example shows how to use Resend with [Axum](https://crates.io/crates/axum).
 
 ## Prerequisites
 
@@ -11,19 +11,19 @@ To get the most out of this guide, you’ll need to:
 
 ## Instructions
 
-1. Replace `re_123456789` on `example.ts` with your API key.
+1. Replace `re_123456789` on `src/main.rs` with your API key.
 
-2. Install dependencies:
+2. Run the server:
 
-  ```sh
-TBD
-  ```
+    ```sh
+    cargo run
+    ```
 
-3. Execute the following command:
+3. Access the URL http://localhost:3000/ via your browser or run
 
-  ```sh
-TBD
-  ```
+    ```sh
+    curl http://localhost:3000/
+    ```
 
 ## License
 
